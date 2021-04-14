@@ -24,7 +24,7 @@
         "name": "PostJob",
         "type": "boolean",
         "label": "Print on Post-job",
-        "helpMarkDown": "Set to print Environment Variables every time, otherwise, print on error."
+        "helpMarkDown": "Print environment variables on post-job each time, otherwise print on error."
     }
   ],
   "execution": {

@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "environment-variables",
     "name": "Environment Variables",
-    "version": "0.0.6",
+    "version": "0.0.8",
     "publisher": "Tomer",
     "targets": [
         {
@@ -24,9 +24,38 @@
     "tags": [
         "Environment Variables", "Variable"
     ],
+    "branding": {
+        "color": "rgb(34, 34, 34)",
+        "theme": "dark"
+    },
+    "screenshots": [
+        {
+            "path": "screenshots/EnvironmentVariables-01.png"
+        },
+        {
+            "path": "screenshots/EnvironmentVariables-02.png"
+        }
+    ],
+    "content": {
+        "details": {
+            "path": "README.md"
+        }
+    },
+    "galleryFlags": [
+        //"Public"
+        
+    ],
     "repository": {
         "type": "git",
         "uri": "https://github.com/LTomer/vsts-environment-variables"
+    },
+    "links":{
+        "repository": {
+            "uri": "https://github.com/LTomer/vsts-environment-variables"
+        },
+        "issues": {
+            "uri": "https://github.com/LTomer/vsts-environment-variables/issues"
+        }
     },
     "contributions": [
         {
